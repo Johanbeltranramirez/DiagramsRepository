@@ -14,7 +14,7 @@
           <mxGeometry x="150" y="10" width="80" height="50" as="geometry" />
         </mxCell>
         <mxCell id="5CLBEwvSfX1bp1Uhf7TP-1" value="End" style="ellipse;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="520" y="535" width="80" height="50" as="geometry" />
+          <mxGeometry x="160" y="800" width="80" height="50" as="geometry" />
         </mxCell>
         <mxCell id="LsBDA5w3eoI129DeR8yU-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="LsBDA5w3eoI129DeR8yU-0" target="LsBDA5w3eoI129DeR8yU-7">
           <mxGeometry relative="1" as="geometry" />
@@ -33,11 +33,34 @@
         <mxCell id="LsBDA5w3eoI129DeR8yU-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="LsBDA5w3eoI129DeR8yU-7" target="LsBDA5w3eoI129DeR8yU-3">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="LsBDA5w3eoI129DeR8yU-7" value="return average" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="314" y="190" width="90" height="50" as="geometry" />
+        <mxCell id="LsBDA5w3eoI129DeR8yU-7" value="average(heights)" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="314" y="190" width="166" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="LsBDA5w3eoI129DeR8yU-8" value="return variance" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="314" y="390" width="90" height="50" as="geometry" />
+        <mxCell id="LsBDA5w3eoI129DeR8yU-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="LsBDA5w3eoI129DeR8yU-8" target="LsBDA5w3eoI129DeR8yU-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LsBDA5w3eoI129DeR8yU-8" value="varianceFnc(numbers, mean)" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="314" y="390" width="166" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="LsBDA5w3eoI129DeR8yU-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="LsBDA5w3eoI129DeR8yU-11" target="LsBDA5w3eoI129DeR8yU-14">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="200" y="600" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LsBDA5w3eoI129DeR8yU-11" value="Array &amp;lt;heights&amp;gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="140" y="470" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LsBDA5w3eoI129DeR8yU-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="LsBDA5w3eoI129DeR8yU-14" target="LsBDA5w3eoI129DeR8yU-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LsBDA5w3eoI129DeR8yU-14" value="variance =&amp;nbsp;varianceFnc(heights, average(heights))" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="105" y="570" width="190" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="LsBDA5w3eoI129DeR8yU-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="LsBDA5w3eoI129DeR8yU-15" target="5CLBEwvSfX1bp1Uhf7TP-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LsBDA5w3eoI129DeR8yU-15" value="concole.log &quot;Standard Desviation&quot;&amp;nbsp;&lt;br&gt;Math.sqrt(variance)" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="105" y="690" width="190" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
